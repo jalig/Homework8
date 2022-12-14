@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Objects;
 
 public class Book {
@@ -17,7 +19,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Автор книги : " + authorName.toString() + "\n" +
+        return "Автор книги : " + authorName + "\n" +
                 "Произведение : " + bookName + "\n" +
                 "Дата публикации : " + publishingYear + "г.\n";
 
